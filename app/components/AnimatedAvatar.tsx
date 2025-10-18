@@ -20,7 +20,7 @@ export default function AnimatedAvatar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'experience', 'education', 'skills', 'projects', 'certificates', 'contact'];
+      const sections: (keyof typeof sectionTitles)[] = ['home', 'about', 'experience', 'education', 'skills', 'projects', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 200;
       
       for (const section of sections) {
