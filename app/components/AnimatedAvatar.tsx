@@ -127,7 +127,8 @@ export default function AnimatedAvatar() {
           {/* Speech bubble */}
           <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-xl p-3 min-w-max">
             <div className="text-sm font-semibold text-gray-800 whitespace-nowrap">
-              {sectionTitles[currentSection]}
+              {sectionTitles[currentSection as keyof typeof sectionTitles]}
+
             </div>
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full">
               <div className="w-0 h-0 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-white"></div>
