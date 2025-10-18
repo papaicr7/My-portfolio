@@ -4,7 +4,18 @@
 import { useEffect, useState } from 'react';
 
 export default function AnimatedAvatar() {
-  const [currentSection, setCurrentSection] = useState('home');
+  const sectionTitles = {
+    home: 'Welcome!',
+    about: 'About Me',
+    experience: 'My Journey',
+    education: 'Learning Path',
+    skills: 'Expertise',
+    projects: 'My Work',
+    certificates: 'Achievements',
+    contact: 'Let\'s Connect!'
+  };
+
+  const [currentSection, setCurrentSection] = useState<keyof typeof sectionTitles>('home');
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -57,16 +68,6 @@ export default function AnimatedAvatar() {
   };
 
   const position = getAvatarPosition();
-  const sectionTitles = {
-    home: 'Welcome!',
-    about: 'About Me',
-    experience: 'My Journey',
-    education: 'Learning Path',
-    skills: 'Expertise',
-    projects: 'My Work',
-    certificates: 'Achievements',
-    contact: 'Let\'s Connect!'
-  };
 
   if (!isVisible || currentSection === 'home') return null;
 
