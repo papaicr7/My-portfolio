@@ -27,36 +27,28 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Steel Surface Defect Detection Using Deep Learning",
-      description: "Implemented convolutional neural networks (CNN) and recurrent neural networks (RNN) for image and acquiring practical skills. Utilized popular deep learning frameworks such as TensorFlow, Keras, Numpy, Pandas and Matplotlib for developing proficiency.",
-      technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "NumPy", "Pandas"],
+      title: "Steel Surface Defect Detection Using Deep Learning Algorithm",
+      description: "Architected an end-to-end defect detection pipeline using Convolutional Neural Networks (CNN), achieving up to 95.83% accuracy on benchmark industrial datasets. Leveraged TensorFlow, Keras, NumPy, Pandas, and Matplotlib for model development, data preprocessing, and result visualization. Applied Confusion Matrix analysis to minimize false positives. Published in IEEE Transactions.",
+      technologies: ["Python", "TensorFlow", "Keras", "NumPy", "Pandas", "Matplotlib", "CNN"],
       image: "https://readdy.ai/api/search-image?query=Steel%20surface%20defect%20detection%20using%20deep%20learning%2C%20industrial%20quality%20control%20system%2C%20CNN%20neural%20network%20visualization%2C%20steel%20manufacturing%20process%2C%20AI%20computer%20vision%20technology%2C%20modern%20industrial%20automation&width=500&height=300&seq=steel-defect&orientation=landscape",
       date: "08/2023 - 05/2024",
       category: "Machine Learning"
     },
     {
-      title: "Automated Writing Machine (CNC)",
-      description: "Designed and developed a Computer Numerical Control (CNC) machine capable of automated writing and drawing. The project involved mechanical design, electronics integration, and software programming for precise control.",
-      technologies: ["C++", "Arduino", "CAD Design", "Motor Control", "Embedded Systems"],
-      image: "https://readdy.ai/api/search-image?query=CNC%20automated%20writing%20machine%2C%20computer%20numerical%20control%20system%2C%20precision%20writing%20robot%2C%20mechanical%20engineering%20project%2C%20automated%20drawing%20machine%2C%20modern%20manufacturing%20technology&width=500&height=300&seq=cnc-machine&orientation=landscape",
-      date: "01/2022 - 06/2022",
-      category: "Hardware"
-    },
-    {
-      title: "Data Analysis Dashboard",
-      description: "Created interactive dashboards using Power BI and Python for data visualization and analysis. Implemented advanced analytics features including predictive modeling and real-time data processing.",
-      technologies: ["Power BI", "Python", "SQL", "Pandas", "Matplotlib", "Seaborn"],
-      image: "https://readdy.ai/api/search-image?query=Interactive%20data%20analysis%20dashboard%2C%20business%20intelligence%20visualization%2C%20Power%20BI%20charts%20and%20graphs%2C%20modern%20analytics%20interface%2C%20data%20science%20visualization%2C%20professional%20dashboard%20design&width=500&height=300&seq=data-dashboard&orientation=landscape",
-      date: "07/2023 - 10/2023",
-      category: "Data Analytics"
-    },
-    {
-      title: "Web Application Development",
-      description: "Developed responsive web applications using modern web technologies. Implemented user authentication, database integration, and responsive design principles for optimal user experience.",
-      technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MySQL"],
-      image: "https://readdy.ai/api/search-image?query=Modern%20web%20application%20development%2C%20responsive%20website%20design%2C%20full-stack%20development%2C%20React%20JavaScript%20interface%2C%20professional%20web%20development%2C%20contemporary%20UI%20design&width=500&height=300&seq=web-app&orientation=landscape",
-      date: "09/2023 - 12/2023",
+      title: "Portfolio Website",
+      description: "Engineered a fully responsive frontend using React.js, Tailwind CSS, and HTML/CSS, implementing dynamic routing and reusable component architecture. Built a lightweight Node.js/Express.js backend with validated API endpoints for contact form handling and secure server-side data management. Applied responsive design principles ensuring 100% cross-device compatibility.",
+      technologies: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "HTML/CSS"],
+      image: "/images/portfolio.png",
+      date: "07/2024 - 09/2024",
       category: "Web Development"
+    },
+    {
+      title: "E-Commerce Printing Press Website",
+      description: "Designed and developed a production-ready full-stack e-commerce platform for customized merchandise orders (T-shirts, cups, mugs) with end-to-end order lifecycle management. Built a secure Node.js/Express.js backend exposing RESTful APIs for product catalog, cart management, and order processing, following MVC architecture patterns.",
+      technologies: ["Node.js", "Express.js", "RESTful APIs", "MVC", "MongoDB"],
+      image: "/images/website.png",
+      date: "10/2024 - 02/2025",
+      category: "Full-Stack"
     }
   ];
 
@@ -134,7 +126,7 @@ export default function Projects() {
         
         <div className="text-center mt-12">
           <Link
-            href="https://github.com/pupster7"
+            href="https://www.github.com/dipyamandas96"
             target="_blank"
             className="inline-flex items-center bg-gray-800 hover:bg-gray-900 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
           >

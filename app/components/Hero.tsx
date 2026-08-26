@@ -6,9 +6,9 @@ import Link from 'next/link';
 
 export default function Hero() {
   const designations = [
-    "Network & Security Engineer",
-    "Software Developer", 
-    "Data Analyst"
+    "Software Developer",
+    "Full-Stack Developer", 
+    "Java & Spring Boot Specialist"
   ];
   
   const [currentDesignationIndex, setCurrentDesignationIndex] = useState(0);
@@ -72,7 +72,7 @@ export default function Hero() {
         }
         
         .coin-toss {
-          animation: coinToss 2s ease-in-out infinite;
+          animation: coinToss 7s ease-in-out infinite;
         }
       `}</style>
       
@@ -100,8 +100,8 @@ export default function Hero() {
                   <span className="animate-pulse">|</span>
                 </h2>
                 <p className="text-lg text-gray-300 mb-8 animate-fade-in-up animation-delay-300">
-                  Passionate about Web technology and protecting digital infrastructure.<br/>
-                  Specialized in Network security, Web development and Data analytics.
+                  Results-driven Software Developer with 1+ years of hands-on experience.<br/>
+                  Building scalable applications with Java, Spring Boot & Microservices.
                 </p>
               </div>
               
@@ -124,7 +124,7 @@ export default function Hero() {
                   </Link>
                   
                   <Link
-                    href="https://github.com/papaicr7"
+                    href="https://www.github.com/dipyamandas96"
                     target="_blank"
                     className="bg-white/10 hover:bg-white/20 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
                   >
@@ -146,7 +146,7 @@ export default function Hero() {
                 <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 p-2 animate-pulse">
                   <div className="w-full h-full rounded-full bg-white p-4 coin-toss">
                     <img
-                      src="/images/dipyaman.png"
+                      src="/images/Dipyaman.webp"
                       alt="Dipyaman Das"
                       className="w-full h-full object-cover rounded-full"
                     />

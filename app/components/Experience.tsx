@@ -26,44 +26,41 @@ export default function Experience() {
 
   const experiences = [
     {
-      title: "Network and Security Engineer L2",
-      company: "Maple Technology Pvt Ltd",
-      duration: "01/2025 - Present",
-      location: "Kolkata",
+      title: "Software Developer (Full Time)",
+      company: "VideoGate Technologies Pvt Ltd (Toqqer)",
+      duration: "09/2025 - Present",
+      location: "Hyderabad (Onsite)",
       description: [
-        "Supported CCNA/CCVS-level networking concepts in day-to-day network operations and troubleshooting.",
-        "Installed, configured, and maintained routers and switches, including VLAN setup, static/dynamic routing, and access control.",
-        "Monitored and secured networks by implementing network security protocols and conducting routine vulnerability assessments.",
-        "Worked with Linux servers for network monitoring, log analysis, and server management tasks.",
-        "Used GNS3 software to simulate and test complex network topologies and troubleshoot configurations.",
-        "Managed and deployed virtual machines and networking labs using VMware Workstation for testing and training."
-      ],
-      icon: "ri-shield-check-line",
-      color: "bg-purple-600"
-    },
-    {
-      title: "Software Developer Intern",
-      company: "Wizzen Zentrum Technology Pvt Ltd",
-      duration: "07/2023 - 11/2023",
-      location: "Kolkata",
-      description: [
-        "Streamlined data analysis processes using MySQL, Excel, and Python, achieving a 90% increase in workflow efficiency and a 95% improvement in data accuracy. Implemented advanced SQL queries and Python scripts for data cleaning and automation, reducing manual errors and enhancing data integrity.",
-        "Developed and maintained web applications using React.js and Node.js, enhancing user experience and functionality. Collaborated with cross-functional teams to design and implement new features, resulting in a 20% increase in user engagement."
+        "Contributed to scaling the core VOD streaming platform by optimizing Java, Spring Boot, and Microservices, enabling growth from 50K to 250K+ concurrent users during peak live events.",
+        "Enhanced authentication security by integrating JWT authentication and DRM license validation, reducing unauthorized content access by 15%.",
+        "Optimized legacy PostgreSQL queries and tuned HikariCP connection pools, reducing payment processing timeouts by 40%.",
+        "Collaborated on implementing Server-Side Ad Insertion (SSAI) into the OTT playback pipeline, increasing ad monetization efficiency by 22%.",
+        "Supported migration of a monolithic user profile service to AWS-hosted Microservices, improving deployment speed while reducing cloud infrastructure costs by 18%.",
+        "Diagnosed and resolved critical JVM memory leaks and Out-of-Memory (OOM) issues, improving platform availability from 98.2% to 99.9%.",
+        "Eliminated concurrency race conditions using distributed locking with Redis, preventing duplicate coupon redemption and protecting over $12K in revenue.",
+        "Integrated Resilience4j Circuit Breakers for third-party services, reducing user-facing playback failures by 35%.",
+        "Optimized legacy PostgreSQL queries and implemented Redis caching, reducing API response latency from 850 ms to under 180 ms.",
+        "Resolved offline playback synchronization issues, ensuring 100% consistency of watch history and DRM status after network reconnection.",
+        "Introduced automated testing using JUnit and Mockito, increasing test coverage from 20% to 75% while preventing production regressions.",
+        "Streamlined Docker environments and Jenkins CI/CD pipelines, accelerating feature delivery by approximately 3 days per sprint.",
+        "Containerized backend services with Docker, orchestrated deployments using Kubernetes, and automated releases through Jenkins CI/CD, reducing deployment time by 50%."
       ],
       icon: "ri-code-line",
       color: "bg-blue-600"
     },
     {
-      title: "Circuit Designer Intern",
-      company: "AMD Integrated Computer Pvt Ltd",
-      duration: "02/2023 - 05/2023",
-      location: "Kolkata",
+      title: "Network & Security Engineer (Contractual)",
+      company: "Maple Technology Pvt Ltd",
+      duration: "01/2025 - 08/2025",
+      location: "Kolkata (Hybrid)",
       description: [
-        "Assisted in designing and testing electronic circuits using simulation software, contributing to the development of efficient and reliable circuit designs.",
-        "Collaborated with senior engineers to troubleshoot and optimize circuit performance, gaining hands-on experience in practical circuit design and implementation on E3 software."
+        "Designed, implemented, and maintained secure enterprise network infrastructure comprising 50+ routers and switches using CCNA networking principles, improving network availability to 99.8%.",
+        "Configured and optimized 20+ VLANs, STP, OSPF, and EIGRP, reducing network downtime by 25% while improving traffic efficiency.",
+        "Strengthened enterprise security by managing Firewalls, VPNs, and role-based access controls while resolving 100+ network incidents through root cause analysis, improving incident resolution time by 35%.",
+        "Automated system administration, log analysis, and network health monitoring using Bash, grep, and awk, reducing manual effort by 40% and accelerating troubleshooting by 30%."
       ],
-      icon: "ri-tools-line",
-      color: "bg-green-600"
+      icon: "ri-shield-check-line",
+      color: "bg-purple-600"
     }
   ];
 

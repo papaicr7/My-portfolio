@@ -11,61 +11,63 @@ export default function Skills() {
 
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Languages",
       skills: [
-        { name: "Python", level: 90, icon: "https://readdy.ai/api/search-image?query=Python%20programming%20language%20logo%20icon%2C%20clean%20minimal%20design%2C%20blue%20and%20yellow%20colors%2C%20modern%20tech%20icon%20style%2C%20transparent%20background%2C%20high%20quality%20vector%20style&width=64&height=64&seq=python-icon&orientation=squarish" },
-        { name: "Java", level: 80, icon: "https://readdy.ai/api/search-image?query=Java%20programming%20language%20logo%20icon%2C%20coffee%20cup%20symbol%2C%20orange%20and%20red%20colors%2C%20modern%20tech%20icon%20style%2C%20transparent%20background%2C%20high%20quality%20vector%20style&width=64&height=64&seq=java-icon&orientation=squarish" },
-        { name: "JavaScript", level: 85, icon: "/images/java script.png" },
-        { name: "C++", level: 75, icon: "https://readdy.ai/api/search-image?query=C%20%20%20programming%20language%20logo%20icon%2C%20blue%20geometric%20design%2C%20modern%20tech%20icon%20style%2C%20transparent%20background%2C%20high%20quality%20vector%20style&width=64&height=64&seq=cpp-icon&orientation=squarish" },
-        { name: "HTML", level: 95, icon: "https://readdy.ai/api/search-image?query=HTML5%20logo%20icon%2C%20orange%20shield%20design%2C%20modern%20web%20technology%20icon%20style%2C%20transparent%20background%2C%20high%20quality%20vector%20style&width=64&height=64&seq=html-icon&orientation=squarish" },
-        { name: "CSS", level: 90, icon: "https://readdy.ai/api/search-image?query=CSS3%20logo%20icon%2C%20blue%20shield%20design%2C%20modern%20web%20technology%20icon%20style%2C%20transparent%20background%2C%20high%20quality%20vector%20style&width=64&height=64&seq=css-icon&orientation=squarish" },
+        { name: "Java (Primary)", level: 92, icon: "/images/Java.png" },
+        { name: "Python", level: 85, icon: "/images/Python.png" },
+        { name: "JavaScript", level: 82, icon: "/images/java script.png" },
       ]
     },
     {
-      title: "Frameworks & Libraries",
+      title: "Frontend",
       skills: [
-        { name: "ReactJs", level: 85, icon: "https://readdy.ai/api/search-image?query=React%20JavaScript%20library%20logo%20icon%2C%20blue%20atomic%20symbol%2C%20modern%20web%20framework%20icon%20style%2C%20transparent%20background%2C%20high%20quality%20vector%20style&width=64&height=64&seq=react-icon&orientation=squarish" },
+        { name: "Angular", level: 78, icon: "/images/angular.png" },
+        { name: "React.js", level: 85, icon: "/images/React.png" },
+        { name: "TypeScript", level: 80, icon: "/images/Typescript.png" },
+        { name: "Three.js", level: 75, icon: "/images/threejs.png" },
+      ]
+    },
+    {
+      title: "Backend",
+      skills: [
+        { name: "Spring Boot", level: 90, icon: "/images/springboot.png" },
+        { name: "Microservices", level: 88, icon: "/images/micro.png" },
+        { name: "JPA/Hibernate", level: 85, icon: "/images/Hibernate.png" },
+        { name: "RESTful APIs", level: 90, icon: "/images/rest api.png" },
+        { name: "Apache Kafka", level: 75, icon: "/images/Kafka.png" },
+        { name: "RabbitMQ", level: 72, icon: "/images/Rabbitmq.png" },
         { name: "Node.js", level: 80, icon: "/images/nodejs2.png" },
-        { name: "Express Js", level: 82, icon: "/images/expressjs.png" },
-        { name: "Django", level: 70, icon: "/images/Django.png" },
-        { name: ".NET", level: 78, icon: "/images/net.png" },
-        { name: "Spring Boot", level: 75, icon: "/images/springboot.png" },
+        { name: "Express.js", level: 78, icon: "/images/expressjs.png" },
       ]
     },
     {
-      title: "Data Science & Databases",
+      title: "Databases",
       skills: [
-        { name: "Pandas", level: 85, icon: "/images/pandas.png" },
-        { name: "NumPy", level: 85, icon: "/images/numpy.png" },
-        { name: "Matplotlib", level: 80, icon: "/images/matplotlib.png" },
-        { name: "TensorFlow", level: 78, icon: "/images/tensorflow.png" },
-        { name: "Keras", level: 75, icon: "/images/keras.png" },
-        { name: "SQL", level: 88, icon: "/images/sql.png" },
+        { name: "MySQL", level: 88, icon: "/images/mysql.png" },
+        { name: "PostgreSQL", level: 90, icon: "/images/Postgresql.png" },
         { name: "MongoDB", level: 82, icon: "/images/mongodb.png" },
+        { name: "Redis", level: 85, icon: "/images/redis_logo-1.png" },
       ]
     },
     {
-      title: "DevOps & Tools",
+      title: "Cloud & DevOps",
       skills: [
-        { name: "Git", level: 85, icon: "/images/git.png" },
-        { name: "GitHub", level: 90, icon: "/images/github.png" },
-        { name: "CI/CD", level: 78, icon: "/images/cicd.png" },
-        { name: "Docker", level: 75, icon: "/images/docker.png" },
-        { name: "Kubernetes", level: 70, icon: "/images/kuberneties.png" },
-        { name: "AWS", level: 72, icon: "/images/Aws.png" },
-        { name: "Vercel", level: 85, icon: "/images/vercel.png" }
+        { name: "AWS", level: 78, icon: "/images/Aws.png" },
+        { name: "Docker", level: 85, icon: "/images/docker.png" },
+        { name: "Kubernetes", level: 80, icon: "/images/kuberneties.png" },
+        { name: "CI/CD (Jenkins)", level: 82, icon: "/images/cicd.png" },
+        { name: "Git", level: 90, icon: "/images/git.png" },
+        { name: "Bitbucket", level: 82, icon: "/images/Bitbucket.png" },
       ]
     },
     {
-      title: "Business Intelligence & Platforms",
+      title: "Concepts & Testing",
       skills: [
-        { name: "Power BI", level: 88, icon: "/images/powerbi.jpeg" },
-        { name: "Tableau", level: 70, icon: "/images/tableau.png" },
-        { name: "MS Excel", level: 90, icon: "/images/excel.jpeg" },
-        { name: "MySQL", level: 85, icon: "/images/mysql.png" },
-        { name: "VS Code", level: 90, icon: "/images/vs code.png" },
-        { name: "Jupyter Notebook", level: 88, icon: "/images/jupyter notebook.png" },
-        { name: "Google Colab", level: 85, icon: "/images/colab.png" }
+        { name: "SOLID Principles", level: 88, icon: "/images/Solid.png" },
+        { name: "Design Patterns", level: 85, icon: "/images/design pattern.png" },
+        { name: "JWT/OAuth2", level: 82, icon: "/images/JWT.png" },
+        { name: "JUnit & Mockito", level: 80, icon: "/images/junit.png" },
+        { name: "Postman", level: 85, icon: "/images/Postman.png" },
       ]
     },
     

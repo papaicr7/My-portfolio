@@ -47,8 +47,8 @@ export default function Certificates() {
       iconColor: "text-orange-600"
     },
     {
-      title: "MySQL Basics",
-      issuer: "Great Learning",
+      title: "MySQL Advanced",
+      issuer: "HackerRank",
       icon: "ri-database-line",
       color: "bg-gradient-to-r from-green-500 to-teal-500",
       iconColor: "text-green-600"

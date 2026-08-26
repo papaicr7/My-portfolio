@@ -110,7 +110,7 @@ export default function Contact() {
                     <i className="ri-linkedin-fill text-xl"></i>
                   </Link>
                   <Link
-                    href="https://github.com/pupster7"
+                    href="https://www.github.com/dipyamandas96"
                     target="_blank"
                     className="w-12 h-12 bg-gray-800 hover:bg-gray-900 text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
                   >

@@ -35,10 +35,10 @@ export default function Education() {
         "Algorithms and Data Structures",
         "Computer Architecture",
         "Operating Systems",
-        "MachineLearning",
+        "Machine Learning",
         "Network Security"
       ],
-      projects: "Steel surface defect detection using deep learning algorithm",
+      projects: "Steel Surface Defect Detection Using Deep Learning Algorithm",
       icon: "ri-graduation-cap-line",
       color: "bg-purple-600"
     },
@@ -53,9 +53,9 @@ export default function Education() {
         "Operating Systems",
         "HTML, CSS and JavaScript",
         "Microprocessors and Microcontrollers",
-        "Internet of things (IOT)"
+        "Internet of Things (IoT)"
       ],
-      projects: "Automated writing machine (CNC)",
+      projects: "Automated Writing Machine (CNC)",
       icon: "ri-book-line",
       color: "bg-blue-600"
     },

@@ -18,9 +18,9 @@ export default function Footer() {
           <div className="col-span-2">
             <h3 className="text-2xl font-bold text-rainbow mb-4">Dipyaman Das</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Electronics & Instrumentation Engineer passionate about creating innovative solutions 
-              with modern technologies. Always excited to take on new challenges and collaborate 
-              on meaningful projects.
+              Results-driven Software Developer passionate about building scalable applications 
+              with Java, Spring Boot, and Microservices. Always excited to take on new challenges 
+              and collaborate on meaningful projects.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -31,7 +31,7 @@ export default function Footer() {
                 <i className="ri-linkedin-fill"></i>
               </Link>
               <Link
-                href="https://github.com/papaicr7"
+                href="https://www.github.com/dipyamandas96"
                 target="_blank"
                 className="w-10 h-10 bg-gray-700 hover:bg-gray-600 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
               >

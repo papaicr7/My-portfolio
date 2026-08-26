@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dipyaman Das - Portfolio",
-  description: "Electronics & Instrumentation Engineer | Full-Stack Developer | Data Scientist | Tech Enthusiast",
+  description: "Results-driven Software Developer | Java, Spring Boot & Microservices | Full-Stack Developer | Tech Enthusiast",
 };
 
 import { ThemeProvider } from "./components/ThemeProvider";

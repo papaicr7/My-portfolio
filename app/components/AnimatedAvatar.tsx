@@ -111,7 +111,7 @@ export default function AnimatedAvatar() {
           <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 p-1 avatar-pulse shadow-xl">
             <div className="w-full h-full rounded-full bg-white p-1">
               <img
-                src="https://static.readdy.ai/image/bb3310d15824d4f420236b00457b05f2/cc90afe5b76cc08a9dad175bde485945.jfif"
+                src="/images/Dipyaman.webp"
                 alt="Dipyaman Das"
                 className="w-full h-full object-cover rounded-full"
               />

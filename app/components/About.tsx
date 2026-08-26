@@ -53,15 +53,14 @@ export default function About() {
           }`}>
             <div className="space-y-6">
               <p className="text-lg text-white leading-relaxed">
-                I am a recent post-graduate in Electronics and Instrumentation Engineering from Heritage Institute of Technology, 
-                equipped with a robust academic background and a keen interest in technology. 
-                I have practical experience in various programming languages and software development.
+                Results-driven Software Developer with 1+ years of hands-on experience building scalable applications 
+                using Java, Spring Boot, and Microservices architecture. Proficient in designing and consuming RESTful APIs, 
+                managing relational data with PostgreSQL via JPA/Hibernate, and accelerating throughput with Redis caching.
               </p>
               
               <p className="text-lg text-white leading-relaxed">
-                My expertise spans across Python, Java, HTML, CSS, JavaScript, Power BI, and MySQL, 
-                with a strong background in data analysis, data visualization, and database management. 
-                I am passionate about staying up-to-date with emerging technologies and continuously expanding my technical skillset.
+                Experienced with Docker, Kubernetes, and CI/CD pipelines (Jenkins), and comfortable working in Agile environments. 
+                Passionate about staying up-to-date with emerging technologies and continuously expanding my technical skillset.
               </p>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
